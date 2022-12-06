@@ -1,0 +1,73 @@
+{
+    "aggs": {
+      "2": {
+        "significant_terms": {
+          "field": "status.keyword",
+          "size": 10
+        },
+        "aggs": {
+          "3": {
+            "significant_terms": {
+              "field": "host.keyword",
+              "size": 100
+            },
+            "aggs": {
+              "4": {
+                "significant_terms": {
+                  "field": "uri.keyword",
+                  "size": 300
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "size": 0,
+    "_source": {
+      "excludes": []
+    },
+    "stored_fields": [
+      "*"
+    ],
+    "script_fields": {},
+    "docvalue_fields": [
+      {
+        "field": "@timestamp",
+        "format": "date_time"
+      }
+    ],
+    "query": {
+      "bool": {
+        "must": [],
+        "filter": [
+          {
+            "bool": {
+              "should": [
+                {
+                  "query_string": {
+                    "fields": [
+                      "status"
+                    ],
+                    "query": "\\5*"
+                  }
+                }
+              ],
+              "minimum_should_match": 1
+            }
+          },
+          {
+            "range": {
+              "@timestamp": {
+                "format": "strict_date_optional_time",
+                "gte": "{{ .Klt_startTime }}",
+                "lte": "{{ .Klt_endTime }}"
+              }
+            }
+          }
+        ],
+        "should": [],
+        "must_not": []
+      }
+    }
+  }

@@ -1,0 +1,4 @@
+harbor:
+  URL: "http://192.168.31.150/api"
+  USERNAME: "admin"
+  PASSWORD: "rainbow123"
