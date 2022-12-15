@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15fa6b1a-e964-4b2d-9ac6-c2f688405c44" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/middleware/jwt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/route/routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkSpace/LearnTest/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkSpace/LearnTest/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkSpace/LearnTest/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkSpace/LearnTest/go.sum" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2IahIezQi62mMVXuViCdS4FdsG3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+</project>

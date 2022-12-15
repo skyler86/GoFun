@@ -1,4 +1,4 @@
-module WorkSpace/GoMinio
+module demoProject
 
 go 1.16
 

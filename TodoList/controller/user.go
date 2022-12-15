@@ -13,7 +13,7 @@ func UserRegister(c *gin.Context)  {	// 上下文对传过来的值进行绑定
 		c.JSON(200,res)
 
 	}else {
-		c.JSON(400,err)
+		c.JSON(400,ErrorResponse(err))
 	}
 }
 
@@ -25,6 +25,6 @@ func UserLogin(c *gin.Context)  {
 		c.JSON(200,res)
 
 	}else {
-		c.JSON(400,err)
+		c.JSON(400,ErrorResponse(err))
 	}
 }

@@ -52,3 +52,41 @@ func main() {
 		log.Printf("Successfully uploaded %s of size %d\n", objectName, n)
 	}
 }
+
+
+//----------------------------------
+//
+//func main() {
+//
+//	endpoint := "10.122.83.113:9000"
+//	accessKeyID := "admin"
+//	secretAccessKey := "Admin2021!@#"
+//	useSSL := false   //注意没有安装证书的填false
+//
+//	// 初使化minio client对象
+//	minioClient, err := minio.New(endpoint, accessKeyID, secretAccessKey, useSSL)
+//	if err != nil {
+//		log.Fatalln(err)
+//	}
+//	log.Println("初始化完成！")
+//
+//	// 定义桶名
+//	bucketName := "iotdb-backup"
+//
+//	currenTime := time.Now()
+//	ct:=currenTime.Format("2006-01-02")
+//
+//	// 定义上传文件的信息
+//	objectName := "healthcare/"+ct+"/root-lhp.tar.gz"
+//	filePath := "/data/apache-iotdb-0.13.0-all-bin/data/data/sequence/dbackup/healthcare/"+ct+"/root-lhp.tar.gz"
+//	contentType := "audio/mp3"
+//
+//	// 使用 FPutObject 给存储桶上传一个文件
+//	n, err := minioClient.FPutObject(bucketName, objectName, filePath, minio.PutObjectOptions{ContentType: contentType})
+//	if err != nil {
+//		log.Fatalln(err)
+//	}
+//
+//	log.Printf("Successfully uploaded %s of size %d\n", objectName, n)
+//
+//}

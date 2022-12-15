@@ -6,7 +6,7 @@ import "github.com/jinzhu/gorm"
 type Task struct {
 	gorm.Model
 	User      User   `gorm:"ForeignKey:Uid"`	// 指定外键，指向用户的备忘录，使它的外键关联到user表
-	Uid       uint16  `gorm:"not null"`			// 备忘录的编号，因为需要外键关联，所以不能为空
+	Uid       uint  `gorm:"not null"`			// 备忘录的编号，因为需要外键关联，所以不能为空
 	Title     string `gorm:"index;not null"`	// 备忘录的标题，因为需要外键关联，所以不能为空
 	Status    int    `gorm:"default:0"`			// 备忘录的状态；0是未完成，1是已完成
 	Content   string `gorm:"type:longtext"`		// 备忘录内容
