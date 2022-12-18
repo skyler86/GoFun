@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc833f48-224e-4764-a67f-8e6141945b3e" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/TodoList/middleware/jwt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoProject/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoProject/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/controller/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/controller/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/model/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/model/task.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/route/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/route/routes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/serializer/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/serializer/common.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkSpace/LearnTest/gin-demo.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkSpace/LearnTest/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkSpace/LearnTest/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkSpace/goMinio/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/WorkSpace/goMinio/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkSpace/goMinio/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/WorkSpace/goMinio/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkSpace/goMinio/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/WorkSpace/goMinio/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="fc833f48-224e-4764-a67f-8e6141945b3e" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,14 +49,15 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\GoFun\Golang\src\WorkSpace\Kubernetes" />
+      <recent name="D:\WorkSpace\GoFun\Golang\src\Notepad\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\GoFun\Golang\src\Notepad" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WorkSpace\GoFun\Golang\src\Notepad\templates" />
-    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build TodoList">
+  <component name="RunManager" selected="Go Build.go build WorkSpace/Kubernetes">
     <configuration name="go build TodoList" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$/TodoList" />
@@ -89,6 +73,15 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/WorkSpace/GoMinio/main.go" />
       <package value="WorkSpace/GoMinio" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build WorkSpace/Kubernetes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$/WorkSpace/Kubernetes" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/WorkSpace/Kubernetes/deployApp.go" />
+      <package value="WorkSpace/Kubernetes" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -109,14 +102,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <working_directory value="$PROJECT_DIR$/WorkSpace/GoMinio" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/WorkSpace/GoMinio/main.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$/WorkSpace" />
@@ -128,17 +113,17 @@
     <list>
       <item itemvalue="Go Build.go build WorkSpace/GoMinio" />
       <item itemvalue="Go Build.go build demoProject" />
-      <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build getInfo.go" />
       <item itemvalue="Go Build.go build TodoList" />
+      <item itemvalue="Go Build.go build WorkSpace/Kubernetes" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build TodoList" />
+        <item itemvalue="Go Build.go build WorkSpace/Kubernetes" />
         <item itemvalue="Go Build.go build getInfo.go" />
+        <item itemvalue="Go Build.go build TodoList" />
         <item itemvalue="Go Build.go build WorkSpace/GoMinio" />
         <item itemvalue="Go Build.go build demoProject" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -171,11 +156,11 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2760" y="356" key="#Notifications/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1663398714855" />
-    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1670684283012">
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1671278099943">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1668174987688" />
-    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1670684283012" />
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1671278099943" />
     <state x="3270" y="394" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1666353640250">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -184,6 +169,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2560" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1663055803281" />
+    <state x="2577" y="138" key="#go_build_WorkSpace/Kubernetes" timestamp="1671278469109">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2577" y="138" key="#go_build_WorkSpace/Kubernetes/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1671278469109" />
     <state x="2577" y="137" key="#go_build_main.go" timestamp="1666851817183">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -200,29 +189,29 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="3109" y="261" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1670425911771" />
-    <state width="1237" height="188" key="GridCell.Tab.0.bottom" timestamp="1671107508648">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="133" key="GridCell.Tab.0.bottom" timestamp="1671278066712">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="188" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1671107508648" />
-    <state width="1877" height="138" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1671029613021" />
+    <state width="1877" height="133" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1671278066712" />
     <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666361650884" />
-    <state width="1237" height="188" key="GridCell.Tab.0.center" timestamp="1671107508647">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="133" key="GridCell.Tab.0.center" timestamp="1671278066711">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="188" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1671107508647" />
-    <state width="1877" height="138" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1671029613021" />
+    <state width="1877" height="133" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1671278066711" />
     <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1666361650884" />
-    <state width="1237" height="188" key="GridCell.Tab.0.left" timestamp="1671107508647">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="133" key="GridCell.Tab.0.left" timestamp="1671278066711">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="188" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1671107508647" />
-    <state width="1877" height="138" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1671029613020" />
+    <state width="1877" height="133" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1671278066711" />
     <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1666361650884" />
-    <state width="1237" height="188" key="GridCell.Tab.0.right" timestamp="1671107508647">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="133" key="GridCell.Tab.0.right" timestamp="1671278066711">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="188" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1671107508647" />
-    <state width="1877" height="138" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1671029613021" />
+    <state width="1877" height="133" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1671278066711" />
     <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1666361650884" />
     <state x="2460" y="254" key="IDE.errors.dialog" timestamp="1663423485913">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -233,10 +222,10 @@
     </state>
     <state x="2185" y="122" width="1498" height="737" key="Registry/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1669819079355" />
     <state x="2185" y="122" key="Registry/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669819451894" />
-    <state x="2669" y="222" width="996" height="708" key="SettingsEditor" timestamp="1671065560868">
+    <state x="2264" y="210" width="996" height="708" key="SettingsEditor" timestamp="1671246270871">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2264" y="210" width="996" height="708" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1670934134175" />
+    <state x="2264" y="210" width="996" height="708" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1671246270871" />
     <state x="2669" y="222" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1671065560868" />
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1663399240920">
       <screen x="1920" y="0" width="1920" height="1040" />
