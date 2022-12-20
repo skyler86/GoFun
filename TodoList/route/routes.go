@@ -29,6 +29,9 @@ func NewRouter() *gin.Engine {
 			authed.POST("task",controller.CreateTask)		// 创建备忘录的路由
 			authed.GET("task/:id",controller.ShowTask)		// 展示备忘录的路由，传入前端的id
 			authed.GET("tasks",controller.ListTask)			// 展示所有备忘录的路由
+			authed.PUT("task/:id",controller.UpdateTask)		// 更新备忘录的路由
+			authed.POST("search",controller.SearchTask)		// 模糊查询备忘录的路由
+			authed.DELETE("task/:id",controller.DeleteTask)	// 删除查询备忘录的路由
 		}
 	}
 	return r

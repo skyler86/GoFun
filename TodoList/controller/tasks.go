@@ -43,3 +43,37 @@ func ListTask(c *gin.Context)  {
 		c.JSON(400,ErrorResponse(err))
 	}
 }
+
+func UpdateTask(c *gin.Context) {
+	var updateTask logic.UpdateTaskService
+	if err := c.ShouldBind(&updateTask);err == nil {		// 进行绑定
+		res := updateTask.Update(c.Param("id"))		// c.Param(id)就是备忘录的ID，也就是接收前端传过来的ID;claim.Id就是从请求头Authorization这里拿到的用户ID(可以不写)
+		c.JSON(200,res)
+	}else {		// 如果有错误就会打印错误，并返回日志
+		logging.Error(err)
+		c.JSON(400,ErrorResponse(err))
+	}
+}
+
+func SearchTask(c *gin.Context) {
+	var searchTask logic.SearchTaskService
+	claim,_ := utils.ParseToken(c.GetHeader("Authorization"))
+	if err := c.ShouldBind(&searchTask);err == nil {		// 进行绑定
+		res := searchTask.Search(claim.Id)		// 将用户的id传进去来限制这个用户只能查自己的备忘录
+		c.JSON(200,res)
+	}else {		// 如果有错误就会打印错误，并返回日志
+		logging.Error(err)
+		c.JSON(400,ErrorResponse(err))
+	}
+}
+
+func DeleteTask(c *gin.Context)  {
+	var deleteTask logic.DeleteTaskService
+	if err := c.ShouldBind(&deleteTask);err == nil {		// 进行绑定
+		res := deleteTask.Delete(c.Param("id"))		// 将用户的id传进去来限制这个用户只能查自己的备忘录
+		c.JSON(200,res)
+	}else {		// 如果有错误就会打印错误，并返回日志
+		logging.Error(err)
+		c.JSON(400,ErrorResponse(err))
+	}
+}
