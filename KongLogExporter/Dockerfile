@@ -8,8 +8,8 @@ RUN chmod 777 /apps/main
 RUN apk add --no-cache tzdata
 #设置时区
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo 'Asia/Shanghai' >/etc/timezone
-ENV ES_URL http://10.99.110.10:9200/kong*/_search
-ENV ES_USERNAME monitor
-ENV ES_PASSWORD monitor2020
+ENV ES_URL http://192.168.2.10:9200/kong*/_search
+ENV ES_USERNAME admin
+ENV ES_PASSWORD rainbow123
 EXPOSE 8088
 CMD [ "./main" ]

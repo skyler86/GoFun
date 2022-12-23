@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc833f48-224e-4764-a67f-8e6141945b3e" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fc833f48-224e-4764-a67f-8e6141945b3e" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,11 +212,11 @@
     </state>
     <state x="2185" y="122" width="1498" height="737" key="Registry/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1669819079355" />
     <state x="2185" y="122" key="Registry/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669819451894" />
-    <state x="2669" y="222" width="996" height="708" key="SettingsEditor" timestamp="1671520289926">
+    <state x="2669" y="222" width="996" height="708" key="SettingsEditor" timestamp="1671542118354">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2264" y="210" width="996" height="708" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1671246270871" />
-    <state x="2669" y="222" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1671520289926" />
+    <state x="2669" y="222" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1671542118354" />
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1663399240920">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
